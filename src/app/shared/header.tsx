@@ -17,7 +17,11 @@ export default function Header() {
                 <li className={`text-xl font-bold hover:opacity-50 ${isInfo ? "text-red-400" : ""  }`}><Link href="/infomation">Information</Link></li>
                 <li className={`text-xl font-bold hover:opacity-50 ${isWorks ? "text-red-400" : "" }`}><Link href="/works">Works</Link></li>
                 <li className="hover:opacity-50">
-                    <Link href={"https://x.com/blaston0130"}>
+                    <Link
+                        href={"https://x.com/blaston0130"}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
                         <Image src="logo/logo-x.svg" width={24} height={24} alt=""/>
                     </Link>
                 </li>
