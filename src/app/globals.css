@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+h2, h3 {
+  color: rgb(73, 73, 73);
+}
+
 p {
   color: rgb(76, 75, 75);
 }
