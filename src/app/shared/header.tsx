@@ -14,7 +14,7 @@ export default function Header() {
             <div className="text-2xl font-bold"><Link href="/">By-Production</Link></div>
             <ul className="flex gap-10">
                 <li className={`text-xl font-bold hover:opacity-50 ${isTop ? "text-red-400" : ""  }`}><Link href="/">Top</Link></li>
-                <li className={`text-xl font-bold hover:opacity-50 ${isInfo ? "text-red-400" : ""  }`}><Link href="/infomation">Infomation</Link></li>
+                <li className={`text-xl font-bold hover:opacity-50 ${isInfo ? "text-red-400" : ""  }`}><Link href="/infomation">Information</Link></li>
                 <li className={`text-xl font-bold hover:opacity-50 ${isWorks ? "text-red-400" : "" }`}><Link href="/works">Works</Link></li>
                 <li className="hover:opacity-50">
                     <Link href={"https://x.com/blaston0130"}>
