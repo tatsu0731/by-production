@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function WorksComponents() {
     return (
-        <div className="flex flex-col gap-24 my-24">
+        <div className="flex flex-col max-w-5xl gap-24 my-24">
             <section className="flex flex-col gap-4">
                 <h2 className="text-3xl font-bold">■ Works</h2>
                 <div className="grid md:grid-cols-4 grid-cols-2 gap-4">

@@ -3,7 +3,7 @@ import Top from "./componets/top";
 
 export default function Home() {
   return (
-    <div>
+    <div className="flex justify-center">
       <Top />
     </div>
   );
