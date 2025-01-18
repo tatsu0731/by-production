@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function InformationComponents() {
     return (
@@ -6,6 +7,12 @@ export default function InformationComponents() {
             <section className="flex flex-col gap-4">
                 <h2 className="text-3xl font-bold">■ Contact</h2>
                 <p className="text-md">連絡は各種SNSからお願いいたします！</p>
+                <h3 className="text-xl font-bold mt-10 mb-4">□ SNS</h3>
+                    <div className="font-bold flex flex-col gap-2">
+                        <p className="ml-4">X(twitter): <Link className="hover:text-red-400" href={"https://x.com/blaston0130"}>MuNi</Link></p>
+                        <p className="ml-4">Pixiv: <Link className="hover:text-red-400" href={"https://www.pixiv.net/users/40984687"}>MuNi</Link></p>
+                        <p className="ml-4">GitHub: <Link className="hover:text-red-400" href={"https://github.com/tatsu0731"}>Tanu0731</Link></p>
+                    </div>
             </section>
             <section className="flex flex-col gap-4">
                 <h2 className="text-3xl font-bold">■ Member</h2>
