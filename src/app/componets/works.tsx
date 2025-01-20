@@ -31,6 +31,14 @@ export default function WorksComponents() {
                         <Image src="/daikoku.JPG" width={300} height={300} alt=""/>
                         <p className="font-bold">「大黒」</p>
                     </div>
+                    <div className="flex flex-col gap-2">
+                        <Image src="/hard.PNG" width={300} height={300} alt=""/>
+                        <p className="font-bold">「ハードモード」</p>
+                    </div>
+                    <div className="flex flex-col gap-2">
+                        <Image src="/LIVE.PNG" width={300} height={300} alt=""/>
+                        <p className="font-bold">「LIVE!!!」</p>
+                    </div>
                 </div>
             </section>
         </div>
